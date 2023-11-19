@@ -1,0 +1,13 @@
+SQL CMD: -->
+create database db;
+use db;
+CREATE TABLE data (regno INT,name VARCHAR(255));
+insert into data values(1,"babith");
+select * from data;
+
+NOTE-PAD CMD: -->
+javac MyDBConnection.java
+java MyDBConnection
+C:\Users\2021503009\Documents\12>javac -cp .;C:\Users\2021503009\Downloads\mysql-connector-j-8.2.0\mysql-connector-j-8.2.0\mysql-connector-j-8.2.0.jar MyDBConnection.java
+javac -cp .;C:\Users\2021503009\Downloads\mysql-connector-j-8.2.0\mysql-connector-j-8.2.0\mysql-connector-j-8.2.0.jar MyDBConnection.java
+java -cp .;C:\Users\2021503009\Downloads\mysql-connector-j-8.2.0\mysql-connector-j-8.2.0\mysql-connector-j-8.2.0.jar MyDBConnection
